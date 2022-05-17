@@ -1,0 +1,61 @@
+ase==3.22.0
+Bottleneck==1.3.2
+cached-property==1.5.2
+certifi==2021.10.8
+charset-normalizer==2.0.7
+cycler==0.10.0
+fonttools==4.25.0
+googledrivedownloader==0.4
+greenlet @ file:///C:/ci/greenlet_1628888257991/work
+h5py==3.6.0
+idna==3.3
+importlib-metadata @ file:///C:/ci/importlib-metadata_1631916842152/work
+isodate==0.6.0
+Jinja2==3.0.3
+joblib==1.1.0
+keras==2.7.0
+kiwisolver @ file:///C:/ci/kiwisolver_1612282618948/work
+llvmlite==0.37.0
+MarkupSafe==2.0.1
+matplotlib @ file:///D:/bld/matplotlib-suite_1637205206478/work
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
+mkl-service==2.4.0
+munkres==1.1.4
+networkx==2.6.3
+numba==0.54.1
+numexpr @ file:///C:/ci/numexpr_1618856761305/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1634106873805/work
+olefile==0.46
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+pandas @ file:///C:/ci/pandas_1635506714241/work
+Pillow==8.4.0
+pycairo @ file:///C:/ci/pycairo_1614247425654/work
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-louvain==0.15
+pytz==2021.3
+rdflib==6.0.2
+reportlab==3.5.67
+requests==2.26.0
+scikit-learn==0.24.1
+scipy==1.7.2
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+SQLAlchemy @ file:///C:/ci/sqlalchemy_1626948528806/work
+threadpoolctl==3.0.0
+torch @ file:///F:/Download/torch-1.7.1%2Bcu101-cp37-cp37m-win_amd64.whl
+torch-cluster @ file:///F:/Download/torch_cluster-1.5.8-cp37-cp37m-win_amd64.whl
+torch-geometric==1.6.3
+torch-scatter @ file:///F:/Download/torch_scatter-2.0.5-cp37-cp37m-win_amd64.whl
+torch-sparse @ file:///F:/Download/torch_sparse-0.6.8-cp37-cp37m-win_amd64.whl
+torch-spline-conv @ file:///F:/Download/torch_spline_conv-1.2.0-cp37-cp37m-win_amd64.whl
+torchvision @ file:///F:/Download/torchvision-0.8.2%2Bcu101-cp37-cp37m-win_amd64.whl
+tornado @ file:///C:/ci/tornado_1606935947090/work
+tqdm==4.60.0
+typing_extensions==4.0.0
+urllib3==1.26.7
+wincertstore==0.2
+xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
+xlutils==2.0.0
+xlwt==1.3.0
+zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
