@@ -16,7 +16,6 @@ Command:
 python mhc_encoder.py -input input.csv -library library -output output_dir -output_log test/output/output.log
 ```
 * input.csv: input csv file with 3 columns named as "CDR3,Antigen,HLA": TCR-beta CDR3 sequence, peptide sequence, and HLA allele.\
-For more details about CDR3 encoding, please refer to https://github.com/jcao89757/TESSA.
 * library: diretory to the downloaded library
 * output_dir : diretory you want to save the output
 * output_log : local directory to log file with CDR, Antigen, HLA information and predicted binding rank.\
@@ -36,6 +35,7 @@ MHC-encoder outputs a table with 4 columns: CDR3 sequences, antigens sequences, 
 
 
 ## TCR-encoder:Guided Tutorial
+Need to change hyperparameters such as dataset in the code.
 Pre-training with TCR encoder,The encoder file is 'TCR-encoder/results/model_transformer_state_dict.pkl'
 Comand :
 ```
