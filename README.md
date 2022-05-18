@@ -14,7 +14,7 @@ Note: We use the mainstream model netMHCpan as the MHC encoder to ensure that th
 
 Command:
 ```
-python mhc_encoder.py -input input.csv -library library -output output_dir -output_log test/output/output.log
+python MHC-encoder/mhc_encoder.py -input input.csv -library library -output output_dir -output_log test/output/output.log
 ```
 * input.csv: input csv file with 3 columns named as "CDR3,Antigen,HLA": TCR-beta CDR3 sequence, peptide sequence, and HLA allele.\
 * library: diretory to the downloaded library
