@@ -13,7 +13,7 @@ This is the first time that the model is pre-trained for 10 million CDR3 sequenc
 
 
 
-## TCR-encoder:Guided Tutorial
+## TCR-encoder
 Need to change hyperparameters such as dataset in the code.
 Pre-training with TCR encoder,The encoder file is 'TCR-encoder/results/model_transformer_state_dict.pkl'
 Comand :
@@ -37,7 +37,7 @@ python MHC-encoder/mhc_encoder.py -input input.csv -library library -output outp
 * library: diretory to the downloaded library
 * output_dir : diretory you want to save the output
 * output_log : local directory to log file with CDR, Antigen, HLA information and predicted binding rank.\
-## Main:Guided Tutorial
+## Downstream tasks
 After encoding by two encoders, downstream prediction can be performed using the master function
 Comand :
 ```
