@@ -10,7 +10,8 @@ This is the first time that the model is pre-trained for 10 million CDR3 sequenc
 
 
 
-## MHC-encoder:Guided Tutorial
+Note: We use the mainstream model netMHCpan as the MHC encoder to ensure that the MHC as well as the antigenic peptide encoding can preserve richer features
+
 Command:
 ```
 python mhc_encoder.py -input input.csv -library library -output output_dir -output_log test/output/output.log
@@ -19,19 +20,6 @@ python mhc_encoder.py -input input.csv -library library -output output_dir -outp
 * library: diretory to the downloaded library
 * output_dir : diretory you want to save the output
 * output_log : local directory to log file with CDR, Antigen, HLA information and predicted binding rank.\
-
-
-## Example 
-The example input file is under data/.\
-Comand :
-```
-python MHC-encoder/mhc_encoder.py -input data/dataset_2.csv -library library -output test/output -
-output_log test/output/output.log
-```
-The output for test_input.csv is under test/output.
-
-## Output file example
-MHC-encoder outputs a table with 4 columns: CDR3 sequences, antigens sequences, HLA alleles, and ranks for each pair of TCR/pMHC. The rank reflects the percentile rank of the predicted binding strength between the TCR and the pMHC with respect to the 10,000 randomly sampled TCRs against the same pMHC. A lower rank considered a good prediction. The sequences of 10,000 background TCRs can be fold under https://github.com/tianshilu/pMTnet/tree/master/library/bg_tcr_library. 
 
 
 ## TCR-encoder:Guided Tutorial
